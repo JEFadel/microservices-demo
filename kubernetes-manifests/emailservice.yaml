@@ -41,7 +41,8 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: emailservice
+        image: emailservic
+        imagePullPolicy: IfNotPresente
         ports:
         - containerPort: 8080
         env:
