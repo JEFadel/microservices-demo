@@ -16,8 +16,6 @@ minikube kubectl -- apply -f kubernetes-manifests/frontend.yaml
 
 minikube kubectl -- apply -f kubernetes-manifests/shippingservice.yaml
 
-minikube kubectl -- apply -f kubernetes-manifests/loadgenerator.yaml
-
 minikube kubectl -- apply -f kubernetes-manifests/paymentservice.yaml
 
 minikube kubectl -- apply -f kubernetes-manifests/productcatalogservice.yaml
@@ -27,3 +25,5 @@ minikube kubectl -- apply -f kubernetes-manifests/recommendationservice.yaml
 minikube kubectl -- apply -f kubernetes-manifests/redis.yaml
 
 minikube kubectl -- apply -f kubernetes-manifests/kustomization.yaml
+
+minikube kubectl -- apply -f kubernetes-manifests/loadgenerator.yaml
